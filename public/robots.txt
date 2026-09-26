@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://enrborewells.net/sitemap.xml
+Sitemap: https://ais-pre-2strxlwfn5ly5sn43gdb6u-385705889944.asia-southeast1.run.app/sitemap.xml

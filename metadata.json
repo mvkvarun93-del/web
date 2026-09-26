@@ -1,0 +1,8 @@
+{
+  "name": "ENR borewells",
+  "description": "Professional borewell drilling services in Hyderabad by Emme Naresh (BNI Member). Heavy-duty 4.5\" and 6.5\" hydraulic sensor rigs, transparent pricing per foot, and pump installation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
