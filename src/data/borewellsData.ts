@@ -69,8 +69,8 @@ export interface PricingRateRow {
 export const COMPANY_INFO = {
   name: 'Sri Venkateshwara Borewells & Motors',
   shortName: 'ENR Borewells',
-  domain: 'enrborewells.net',
-  websiteUrl: 'https://enrborewells.net',
+  domain: 'enrborewells.com',
+  websiteUrl: 'https://enrborewells.com',
   cloudUrl: 'https://ais-pre-2strxlwfn5ly5sn43gdb6u-385705889944.asia-southeast1.run.app',
   proprietor: 'Emme Naresh',
   credentials: [

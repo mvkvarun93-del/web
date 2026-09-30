@@ -337,7 +337,7 @@ export const SocialFeedFooter: React.FC<SocialFooterProps> = ({ onOpenResume, on
                   className="w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg border border-cyan-500/40 bg-cyan-500/10 hover:bg-cyan-500/20 text-xs font-semibold text-cyan-300 transition-colors"
                 >
                   <Globe className="w-3.5 h-3.5 text-cyan-400" />
-                  <span>enrborewells.net &amp; Google SEO Center</span>
+                  <span>enrborewells.com &amp; Google SEO Center</span>
                 </button>
               )}
 

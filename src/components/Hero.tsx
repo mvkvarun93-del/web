@@ -44,10 +44,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEstimate, onOpenResume, onOpen
             <button
               onClick={onOpenGooglePublish}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cyan-50 dark:bg-cyan-950/60 border border-cyan-300 dark:border-cyan-800 text-cyan-800 dark:text-cyan-300 text-xs font-semibold hover:bg-cyan-100 dark:hover:bg-cyan-900/60 transition-colors shadow-xs"
-              title="enrborewells.net Domain Setup & Google Search Indexing"
+              title="enrborewells.com Domain Setup & Google Search Indexing"
             >
               <Globe className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" />
-              <span>enrborewells.net • Domain &amp; Google Ready</span>
+              <span>enrborewells.com • Domain &amp; Google Ready</span>
             </button>
           )}
         </div>

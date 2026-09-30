@@ -38,7 +38,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
 
   if (!isOpen) return null;
 
-  const customDomain = 'enrborewells.net';
+  const customDomain = 'enrborewells.com';
   const publicUrl = 'https://ais-pre-2strxlwfn5ly5sn43gdb6u-385705889944.asia-southeast1.run.app';
   const richResultsUrl = `https://search.google.com/test/rich-results?url=${encodeURIComponent(`https://${customDomain}`)}`;
   const searchConsoleUrl = 'https://search.google.com/search-console';
@@ -180,13 +180,13 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                 <div className="relative z-10 space-y-2">
                   <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/20 text-xs font-semibold backdrop-blur-xs">
                     <Sparkles className="w-3.5 h-3.5 text-yellow-300" />
-                    <span>How To Make &quot;enrborewells.net&quot; Open This Website</span>
+                    <span>How To Make &quot;enrborewells.com&quot; Open This Website</span>
                   </div>
                   <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight">
                     Connect {customDomain} in 60 Seconds
                   </h3>
                   <p className="text-cyan-100 text-xs sm:text-sm max-w-2xl leading-relaxed">
-                    Once you set up <strong>Domain Forwarding</strong> in your domain registrar (GoDaddy, Namecheap, Hostinger, BigRock, etc.), typing <strong>enrborewells.net</strong> in any phone, browser, or Google search will directly open your live Borewells web app!
+                    Once you set up <strong>Domain Forwarding</strong> in GoDaddy, typing <strong>enrborewells.com</strong> or <strong>www.enrborewells.com</strong> in any phone, browser, or Google search will directly open your live Borewells web app!
                   </p>
                 </div>
               </div>
@@ -203,7 +203,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                     </span>
                   </div>
                   <span className="text-xs text-neutral-500">
-                    Paste this into your domain forwarding destination
+                    Paste this into your GoDaddy forwarding destination
                   </span>
                 </div>
 
@@ -260,17 +260,17 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                     <div className="space-y-2 text-xs text-neutral-700 dark:text-neutral-300">
                       <div className="font-bold text-sm text-neutral-900 dark:text-white flex items-center gap-1.5">
                         <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                        GoDaddy 60-Second Setup:
+                        GoDaddy 60-Second Setup for enrborewells.com:
                       </div>
                       <ol className="list-decimal list-inside space-y-1.5 leading-relaxed pl-1">
                         <li>Log in to your <strong>GoDaddy Account</strong> &gt; click <strong>My Products</strong>.</li>
-                        <li>Find <strong>enrborewells.net</strong> and click <strong>DNS</strong> (or Manage DNS).</li>
+                        <li>Find <strong>enrborewells.com</strong> and click <strong>DNS</strong> (or Manage DNS).</li>
                         <li>Scroll down to the <strong>Forwarding</strong> section &gt; click <strong>Add Forwarding</strong> under Domain.</li>
                         <li>Select <strong>https://</strong> and paste: <code className="px-1.5 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 font-mono text-cyan-700 dark:text-cyan-400 select-all">{publicUrl.replace('https://', '')}</code></li>
                         <li>
-                          <strong>Forward Type:</strong> Choose <em>Forward with Masking</em> (keeps <strong>enrborewells.net</strong> in the browser bar) OR <em>Permanent (301)</em>.
+                          <strong>Forward Type:</strong> Choose <em>Forward with Masking</em> (keeps <strong>enrborewells.com</strong> in the browser bar) OR <em>Permanent (301)</em>.
                         </li>
-                        <li>Click <strong>Save</strong>. In 5 to 15 minutes, typing <strong>enrborewells.net</strong> will open your live site!</li>
+                        <li>Click <strong>Save</strong>. In 5 to 15 minutes, typing <strong>enrborewells.com</strong> will open your live site!</li>
                       </ol>
                     </div>
                   )}
@@ -283,7 +283,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                       </div>
                       <ol className="list-decimal list-inside space-y-1.5 leading-relaxed pl-1">
                         <li>Sign in to <strong>Namecheap</strong> &gt; go to <strong>Domain List</strong>.</li>
-                        <li>Click <strong>Manage</strong> next to <strong>enrborewells.net</strong>.</li>
+                        <li>Click <strong>Manage</strong> next to <strong>enrborewells.com</strong>.</li>
                         <li>Under the <strong>Advanced DNS</strong> tab, find <strong>Redirect Domain</strong>.</li>
                         <li>Set <strong>Source URL:</strong> <code>@</code> and <code>www</code>.</li>
                         <li>Set <strong>Destination URL:</strong> <code className="px-1.5 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 font-mono text-cyan-700 dark:text-cyan-400 select-all">{publicUrl}</code></li>
@@ -300,7 +300,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                       </div>
                       <ol className="list-decimal list-inside space-y-1.5 leading-relaxed pl-1">
                         <li>Log in to <strong>Hostinger hPanel</strong> &gt; <strong>Domains</strong>.</li>
-                        <li>Click on <strong>enrborewells.net</strong> &gt; <strong>Redirects</strong>.</li>
+                        <li>Click on <strong>enrborewells.com</strong> &gt; <strong>Redirects</strong>.</li>
                         <li>In the <strong>Redirect to:</strong> field, paste <code className="px-1.5 py-0.5 rounded bg-neutral-100 dark:bg-neutral-800 font-mono text-cyan-700 dark:text-cyan-400 select-all">{publicUrl}</code></li>
                         <li>Click <strong>Create</strong>. Done!</li>
                       </ol>
@@ -311,7 +311,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                     <div className="space-y-2 text-xs text-neutral-700 dark:text-neutral-300">
                       <div className="font-bold text-sm text-neutral-900 dark:text-white flex items-center gap-1.5">
                         <CheckCircle2 className="w-4 h-4 text-emerald-500" />
-                        Cloudflare / Reverse Proxy Setup (Keeps enrborewells.net in URL bar):
+                        Cloudflare / Reverse Proxy Setup (Keeps enrborewells.com in URL bar):
                       </div>
                       <ol className="list-decimal list-inside space-y-1.5 leading-relaxed pl-1">
                         <li>In Cloudflare DNS, add a <strong>CNAME</strong> record:
@@ -322,14 +322,14 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                           </div>
                         </li>
                         <li>Enable the <strong>Orange Cloud (Proxied)</strong> for free SSL and caching.</li>
-                        <li>Under <strong>Rules &gt; Redirect Rules</strong>, create a rule to route <code>enrborewells.net/*</code> to the target URL.</li>
+                        <li>Under <strong>Rules &gt; Redirect Rules</strong>, create a rule to route <code>enrborewells.com/*</code> to the target URL.</li>
                       </ol>
                     </div>
                   )}
                 </div>
               </div>
 
-              {/* Step 3: Test enrborewells.net */}
+              {/* Step 3: Test enrborewells.com */}
               <div className="p-4 rounded-xl border border-emerald-200 dark:border-emerald-900/60 bg-emerald-50/50 dark:bg-emerald-950/20 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <div className="space-y-1">
                   <div className="font-bold text-neutral-900 dark:text-white text-xs flex items-center gap-1.5">
@@ -343,12 +343,12 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
 
                 <div className="flex items-center gap-2">
                   <a
-                    href="https://enrborewells.net"
+                    href="https://enrborewells.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-xs transition-colors"
                   >
-                    <span>Open https://enrborewells.net</span>
+                    <span>Open https://enrborewells.com</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                 </div>
@@ -448,7 +448,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                         Custom Domain &amp; Canonical URL
                       </h4>
                       <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
-                        Configured canonical pointing to <code>https://enrborewells.net</code>.
+                        Configured canonical pointing to <code>https://enrborewells.com</code>.
                       </p>
                     </div>
                   </div>
@@ -460,7 +460,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                         XML Sitemap (sitemap.xml)
                       </h4>
                       <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
-                        Indexed all sections under both enrborewells.net &amp; cloud domain.
+                        Indexed all sections under both enrborewells.com &amp; cloud domain.
                       </p>
                     </div>
                   </div>
@@ -499,9 +499,9 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
               <div className="p-4 rounded-xl bg-blue-50 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-900/50 text-blue-950 dark:text-blue-200 flex items-start gap-3">
                 <Search className="w-5 h-5 text-blue-600 dark:text-blue-400 shrink-0 mt-0.5" />
                 <div className="text-xs space-y-1">
-                  <div className="font-bold text-sm">How to submit enrborewells.net to Google Search</div>
+                  <div className="font-bold text-sm">How to submit enrborewells.com to Google Search</div>
                   <p>
-                    Google Search Console tells Google to crawl <strong>enrborewells.net</strong> immediately so customers typing <em>&quot;enrborewells.net&quot;</em> or <em>&quot;borewells in Hyderabad&quot;</em> see your site at the top.
+                    Google Search Console tells Google to crawl <strong>enrborewells.com</strong> immediately so customers typing <em>&quot;enrborewells.com&quot;</em> or <em>&quot;borewells in Hyderabad&quot;</em> see your site at the top.
                   </p>
                 </div>
               </div>
@@ -541,7 +541,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                     </div>
                     <div className="space-y-1.5 flex-1">
                       <div className="font-semibold text-neutral-900 dark:text-white text-xs">
-                        Add Domain Property: enrborewells.net
+                        Add Domain Property: enrborewells.com
                       </div>
                       <p className="text-xs text-neutral-600 dark:text-neutral-400">
                         Choose <strong>Domain</strong> or <strong>URL prefix</strong> and enter:
@@ -686,7 +686,7 @@ export const GooglePublishModal: React.FC<GooglePublishModalProps> = ({ isOpen, 
                     Live Google Search Snippet Simulation
                   </h4>
                   <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                    Accurate simulation when someone searches &quot;enrborewells.net&quot; on Google.
+                    Accurate simulation when someone searches &quot;enrborewells.com&quot; on Google.
                   </p>
                 </div>
                 <div className="flex items-center gap-1 bg-neutral-100 dark:bg-neutral-800 p-1 rounded-lg">

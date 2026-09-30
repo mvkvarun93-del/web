@@ -4,38 +4,38 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Primary Custom Domain URLs -->
   <url>
-    <loc>https://enrborewells.net/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://enrborewells.com/</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://enrborewells.net/#services</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://enrborewells.com/#services</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://enrborewells.net/#pricing</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://enrborewells.com/#pricing</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://enrborewells.net/#projects</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://enrborewells.com/#projects</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://enrborewells.net/#credentials</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://enrborewells.com/#credentials</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://enrborewells.net/#contact</loc>
-    <lastmod>2026-09-24</lastmod>
+    <loc>https://enrborewells.com/#contact</loc>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -43,13 +43,13 @@
   <!-- Live Deployment Mirror URLs -->
   <url>
     <loc>https://ais-pre-2strxlwfn5ly5sn43gdb6u-385705889944.asia-southeast1.run.app/</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ais-pre-2strxlwfn5ly5sn43gdb6u-385705889944.asia-southeast1.run.app/#pricing</loc>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

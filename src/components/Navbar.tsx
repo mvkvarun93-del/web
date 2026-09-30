@@ -51,11 +51,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenGooglePublish}
               className="inline-flex items-center gap-1.5 font-medium text-emerald-200 hover:text-white transition-colors bg-emerald-500/20 px-2.5 py-0.5 rounded border border-emerald-400/30"
-              title="Click to view enrborewells.net Domain Setup & Google Search Indexing details"
+              title="Click to view enrborewells.com Domain Setup & Google Search Indexing details"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
               <Globe className="w-3 h-3 text-emerald-300" />
-              <span>enrborewells.net • Google Search Ready</span>
+              <span>enrborewells.com • Google Search Ready</span>
             </button>
           </div>
           <div className="flex items-center gap-4 text-xs font-medium">
@@ -86,7 +86,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <div className="flex items-center gap-1.5 text-xs font-medium text-cyan-600 dark:text-cyan-400">
                 <span>ENR Borewells</span>
                 <span className="inline-block w-1 h-1 rounded-full bg-cyan-500"></span>
-                <span className="font-mono text-[11px] text-cyan-700 dark:text-cyan-300">enrborewells.net</span>
+                <span className="font-mono text-[11px] text-cyan-700 dark:text-cyan-300">enrborewells.com</span>
               </div>
             </div>
           </a>
@@ -110,10 +110,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenGooglePublish}
               className="flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-lg border border-cyan-500/40 bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-800 dark:text-cyan-300 transition-colors shadow-xs"
-              title="enrborewells.net domain forwarding, Google Search Console indexing and Google Maps sync"
+              title="enrborewells.com domain forwarding, Google Search Console indexing and Google Maps sync"
             >
               <Globe className="w-4 h-4 text-cyan-600 dark:text-cyan-400" />
-              <span>enrborewells.net</span>
+              <span>enrborewells.com</span>
             </button>
 
             {/* Dark mode switch */}
@@ -204,7 +204,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-cyan-500/40 bg-cyan-500/10 text-sm font-semibold text-cyan-800 dark:text-cyan-300"
             >
               <Globe className="w-4 h-4 text-cyan-600" />
-              enrborewells.net &amp; Google SEO Center
+              enrborewells.com &amp; Google SEO Center
             </button>
 
             <button
